@@ -184,6 +184,7 @@ includes = $array(
 );
 
 search_includes = $array(
+	"/usr/local/opt/openssl/include",
 	"/usr/include",
 	"/usr/local/include/mysql",
 	"/usr/include/mysql",
@@ -209,8 +210,7 @@ search_includes = $array(
 	"/usr/local/include/apr-0",
 	"/opt/local/include/apr-1",
 	"/opt/local/include/apr-1.0",
-	"/opt/local/include/apr-0",
-	"/usr/local/opt/openssl/include"
+	"/opt/local/include/apr-0"
 );
 
 var cwd = $loader.loadprim("std@get_cwd",0)();
