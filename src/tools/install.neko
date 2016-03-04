@@ -209,7 +209,8 @@ search_includes = $array(
 	"/usr/local/include/apr-0",
 	"/opt/local/include/apr-1",
 	"/opt/local/include/apr-1.0",
-	"/opt/local/include/apr-0"
+	"/opt/local/include/apr-0",
+	"/usr/local/opt/openssl/include"
 );
 
 var cwd = $loader.loadprim("std@get_cwd",0)();
